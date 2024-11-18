@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bauprojekt Kantnergasse - Verkauf</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header>
+        <div class="hero">
+            <h1>Bauprojekt Kantnergasse - Verkauf</h1>
+            <p>Entdecken Sie die verfügbaren Wohnungen zum Verkauf im Bauprojekt Kantnergasse 44.</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about">Über das Projekt</a></li>
+            <li><a href="#sales-process">Verkaufsprozess</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>Über das Projekt</h2>
+        <p>Das Bauprojekt Kantnergasse bietet moderne, gut geschnittene Wohnungen in einer attraktiven Lage in Wien. Ideal für Investoren und Eigenheimkäufer.</p>
+    </section>
+
+    <!-- Sales Process Section -->
+    <section id="sales-process">
+        <h2>Verkaufsprozess</h2>
+        <div class="process-step">
+            <h3>1. Provision</h3>
+            <p>Die Provision des Immobilienmaklers wird beim Abschluss des Kaufvertrags fällig.</p>
+        </div>
+        <div class="process-step">
+            <h3>2. Rechtliche Aspekte</h3>
+            <p>Alle rechtlichen Dokumente und Verträge werden von unserem Notar und Anwaltsteam überprüft, um einen sicheren Kaufprozess zu gewährleisten.</p>
+        </div>
+        <div class="process-step">
+            <h3>3. Schritt-für-Schritt Überblick</h3>
+            <ul>
+                <li>Kontaktaufnahme und Anfrage</li>
+                <li>Besichtigung der Wohnungen</li>
+                <li>Vertragsunterzeichnung</li>
+                <li>Übergabe der Wohnung</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <form action="/submit-form" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Nachricht:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <button type="submit">Absenden</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Bauprojekt Kantnergasse</p>
+    </footer>
+</body>
+</html>
